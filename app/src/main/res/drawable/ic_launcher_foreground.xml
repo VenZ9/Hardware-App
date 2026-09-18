@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer HUD Gauge Arc (Speedometer frame) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 30,68 A 28,28 0 1,1 78,68" />
+
+    <!-- Performance Emerald Inner Accent Arc -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#10B981"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M 35,63 A 22,22 0 1,1 68,36" />
+
+    <!-- Central Microchip Body -->
+    <path
+        android:fillColor="#0B132B"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2"
+        android:pathData="M43,43 h22 v22 h-22 z" />
+
+    <!-- Core Chip Neon Glow -->
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M48,48 h12 v12 h-12 z" />
+
+    <!-- Chip Pins - Top & Bottom -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.8"
+        android:pathData="M47,38 L47,43 M54,36 L54,43 M61,38 L61,43 M47,65 L47,70 M54,65 L54,72 M61,65 L61,70" />
+
+    <!-- Chip Pins - Left & Right -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.8"
+        android:pathData="M38,47 L43,47 M36,54 L43,54 M38,61 L43,61 M65,47 L70,47 M65,54 L72,54 M65,61 L70,61" />
+
+    <!-- HUD Crosshair / Meter Ticks -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 53,24 h2 v4 h-2 z" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M 27,47 h4 v2 h-4 z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M 77,47 h4 v2 h-4 z" />
+</vector>

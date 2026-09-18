@@ -1,0 +1,7 @@
+{
+  "name": "Hardware HUD",
+  "description": "Real-time hardware & system monitor with live animated sensors, device specs, and a movable, resizable floating gaming HUD overlay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
